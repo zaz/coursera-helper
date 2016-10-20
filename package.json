@@ -1,0 +1,14 @@
+{
+  "name": "coursera-helper",
+  "version": "0.0.0",
+  "description": "Tools to help people moderate Coursera.",
+  "scripts": {
+    "install": "echo 'Hell YEAH!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaz/coursera-helper/"
+  },
+  "author": "Zaz Brown",
+  "license": "public domain"
+}

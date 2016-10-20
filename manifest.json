@@ -1,0 +1,13 @@
+{
+  "name": "Coursera Helper",
+  "version": "0.0.0",
+  "manifest_version": 2,
+  "description": "Tools to help people moderate Coursera.",
+  "permissions": ["*://www.coursera.org/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.coursera.org/*"],
+      "js": ["jquery.js", "content_script.js"]
+    }
+  ]
+}
